@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <title>CRC | Sender</title>
+</head>
+<body>
+<marquee width="100%" direction="right" height="95px">
+<h2><mark bgcolor= "red">computer networks project</mark><br>
+<big>Done by :</big><mark id="one"> KONDRAJU SAILENDRA &nbsp;&nbsp; REG.NO: 124157049 &nbsp CSE(CSBC)</mark>
+</h2>
+</marquee>
+<div id ="center"> 
+<img src="SASTRA-New-Logo.png" height="250px" width="100%"/></div>
+    <div id="fields-empty" class="form">
+        Please fill in all the fields and ensure there are only 1's and 0's
+    </div>
+
+    <div id="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="title"> Sender <h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="form">
+                    <form action="receiver.html" method="GET" id="crc_form">
+                            <h4>Sender Inputs</h4><hr>
+                            
+                            <input type="text" class="bits" id="sender_bits" name="sender_bits" required />
+                            <input type="text" class="divisor" id="sender_divisor" name="sender_divisor" required />
+                        
+                            <input type="submit" class="submit" id="sender_submit" value="Send Message" />
+                            <input type="reset" class="submit" id="sender_submit" value="Reset Message" />
+                            
+                            <input type="hidden" name="final_crc" id="crc_send" value="" />
+        
+                        </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="sender_information">
+                    <h4>Sender Status</h4><hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/sender.js"></script>
+</body>
+</html>
