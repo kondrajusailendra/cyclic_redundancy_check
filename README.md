@@ -88,23 +88,4 @@ Open the index.html file in a web browser to test your changes.
 
 Once you're satisfied with your changes, create a pull request from your forked repository.
 
-Future Improvements
-Support for different CRC algorithms and configurations.
-Enhanced error handling and validation of user inputs.
-Option to choose between different polynomial representations (binary, hexadecimal).
-License
-This project is licensed under the MIT License..git
-Make changes to the HTML, CSS, or JavaScript files as needed.
 
-Open the index.html file in a web browser to test your changes.
-
-Once you're satisfied with your changes, create a pull request from your forked repository.
-
-Future Improvements
-Support for different CRC algorithms and configurations.
-Enhanced error handling and validation of user inputs.
-Option to choose between different polynomial representations (binary, hexadecimal).
-
-License:
-
-This project is licensed under the MIT License.
